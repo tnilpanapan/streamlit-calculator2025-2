@@ -129,7 +129,7 @@ DA = st.text_input("10.SIZE NO OF DIAMETER (DA) \n กรอกตัวเล�
 
 # ปุ่มเท่ากับ
 calculate = st.button(" = ", type="primary")
-
+st.text_input("1-Phase Results", value="",disabled=True)
 st.write("---")
 
 # ---------- เมื่อกดปุ่ม = ----------
