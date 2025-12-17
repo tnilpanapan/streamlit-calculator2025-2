@@ -174,7 +174,7 @@ if calculate:
 
     # ฟังก์ชั่นสี่ CON_AREA_A
     try:
-        CON_AREA_A, CJ_adj = compute_Curdensity_and_Area(A_adj,PA)
+        CON_AREA_A, CJ_adj = compute_Curdensity_and_Area(A_adj,PA,PC)
 
         valid = True
     except ValueError:
