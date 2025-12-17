@@ -51,7 +51,7 @@ div.stTextInput input::placeholder {
 
 
 
-st.set_page_config(page_title="Calculator 3 Inputs", layout="centered")
+st.set_page_config(page_title="1-Phase Calculator", layout="centered")
 st.title("SINGLE PHASE M-PROGRAM")
 
 # ---------- ฟังก์ชันคำนวณ ----------
