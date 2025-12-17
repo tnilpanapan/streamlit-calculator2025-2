@@ -57,9 +57,8 @@ st.title("SINGLE PHASE M-PROGRAM")
 # ---------- ฟังก์ชันคำนวณ ----------
 
 
-def compute_PM_T_TX(V_str: str, B_str: str, DI_str: str, L_str: str, P_str: str, PA_str: str):
+def compute_PM_T_TX(V_str: str, DI_str: str, L_str: str, P_str: str, PA_str: str):
   V = float(V_str)
-  B = float(B_str)
   DI = float(DI_str)
   L = float(L_str)
   P = float(P_str)
