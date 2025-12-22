@@ -1,6 +1,10 @@
 import streamlit as st
 from datetime import datetime
 
+st.set_page_config(
+    page_title="1-P-M",
+    page_icon="│"
+)
 
 st.markdown("""
 <style>
